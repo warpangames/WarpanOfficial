@@ -15,7 +15,7 @@
 }
 
 body{
-    height: 500vh;
+    height: 800vh;
 }
 
 
@@ -231,6 +231,11 @@ margin-bottom: 15px;
 
  }
 
+ .section5{
+    background-color: blueviolet;
+    padding: 30px 0;
+ }
+
  .section5-heading1{
     text-align: center;
     width: 150px;
@@ -254,7 +259,7 @@ margin-bottom: 15px;
  .tech-slideshow {
     height: 200px;
     max-width: 80vw;
-    margin: 0 auto;
+    margin: auto;
     position: relative;
     overflow: hidden;
     transform: translate3d(0, 0, 0);
@@ -287,7 +292,129 @@ margin-bottom: 15px;
     100% { 
       transform: translateX(-66.6666%);  
     }
+  }                            
+
+  .section6{
+    margin: 50px 0;
   }
+
+  .section6-heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 7px;
+  }
+
+  .section6-text{
+    text-align:center;
+    font-size: 22px;
+    width: 60%;
+    margin: auto;
+  
+  }
+
+  .scroll{
+    width: 72%;
+    margin: auto;
+    text-align: center;
+    height:400px ;
+    overflow-x: auto;
+  }
+
+  .section6-flex{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .section6-profile{
+      height: 300px;
+      width: 200px;
+      /* border: 2px solid black; */
+      border-radius: 10px;
+      margin: 40px;
+      background-color: aliceblue;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .section6-profile img{
+    width: 175px;
+    display:block;
+    text-align: center;
+    margin:10px  auto;
+  }
+  .devloper-name{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 20px;
+  }
+
+  .devloper-proffesion{
+    text-align: center;
+  }
+
+  .section7{
+    background-color: antiquewhite;
+    padding: 30px 0;
+  }
+
+  .section7-heading{
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  .footer{
+    background-image: linear-gradient(rgb(162, 102, 52) , rgb(192, 192, 107));
+    color: white;
+    padding: 40px 0;
+  }
+
+  .footer-heading{
+   font-size: 30px;
+   font-weight: bold;
+  text-align: center;
+  }
+
+  .footer-flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .footer-containt{
+    width: 40%;
+  }
+
+  .footer-text-heading{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 7px auto;
+  }
+
+  .footer-text,.phone,.email{
+    text-align: left;
+  }
+
+  .footer-links-heading{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .footer-links ul{
+    column-count: 2;
+    column-gap: 30px;
+  }
+
+  
+
+
+
 
 
 
